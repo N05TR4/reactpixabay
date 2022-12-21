@@ -1,0 +1,33 @@
+.cards {
+    width: 210px;
+    height: 505px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+  }
+  
+.card-image-container {
+    width: 100%;
+    height: 200px;
+  }
+  
+.card-image-container img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+  }
+  
+.card-content {
+    padding: 10px;
+  }
+
+.col-5 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+
+.col-sm-5 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  
