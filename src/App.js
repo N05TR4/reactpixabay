@@ -45,7 +45,7 @@ class App extends Component {
   consultarApi = () => {
     const termino = this.state.termino;
     const pagina = this.state.pagina;
-    const url = `https://pixabay.com/api/?key=30764445-19e5cbfb839dfac6666c2941f&q=${termino}&per_page=28&page=${pagina}`;
+    const url = `https://pixabay.com/api/?key=API_KEY&q=${termino}&per_page=28&page=${pagina}`;
 
     fetch(url).then(respuesta => respuesta.json()).then(resultado => this.setState({ imagenes: resultado.hits }))
     
